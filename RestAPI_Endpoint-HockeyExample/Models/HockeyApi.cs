@@ -62,8 +62,8 @@ namespace RestAPI_Endpoint_HockeyExample.Models
         public string ShotSide { get; set; }
         [Required]
         public DateTime Born { get; set; }
-        public string CurrentTeamName { get; set; }
-        public string CurrentTeamMascot { get; set; }
+        //public string CurrentTeamName { get; set; }
+        //public string CurrentTeamMascot { get; set; }
     }
 
     public class Team
